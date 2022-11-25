@@ -93,7 +93,7 @@
     // 自动适应当前屏幕
     window.addEventListener('resize', function () {
         myChart.resize();
-    })
+    });
 })();
 
 
@@ -204,7 +204,7 @@
     });
     window.addEventListener('resize', function () {
         myChart.resize()
-    })
+    });
 })();
 
 
@@ -500,8 +500,8 @@
 
     window.addEventListener('load', function () {
         myChart.resize();
-    })
+    });
     window.addEventListener('resize', function () {
         myChart.resize();
-    })
+    });
 })();
