@@ -214,6 +214,10 @@ a {
     }
 }
 
+.message>.messageScrool:hover {
+    animation-play-state: paused;
+}
+
 /* 点位分布部分 */
 .point {
     height: 2.6rem;
